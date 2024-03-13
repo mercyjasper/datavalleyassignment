@@ -1,8 +1,6 @@
 public class PrintOddPositionChars {
-
     public static void main(String[] args) {
-        String text = "Type here to search";
-        // Loop through each character in the string
+        String text = "type here to search";
         for (int i = 0; i < text.length(); i++) {
             char ch = text.charAt(i);
             if (!Character.isWhitespace(ch) && i % 2 != 0) {
